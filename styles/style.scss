@@ -1,57 +1,56 @@
 body {
-  font-family: "Roboto", sans-serif;
-  font-size: 14px;
-  margin: 0;
+	font-family: "Roboto", sans-serif;
+	font-size: 14px;
+	margin: 0;
 }
 
 table {
-  width: auto;
-  border-collapse: collapse;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25);
-  padding: 10px;
-  background-color: #ffffff;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 5em;
+	width: auto;
+	border-collapse: collapse;
+	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25);
+	padding: 10px;
+	background-color: #ffffff;
+	margin: 5em auto;
 }
 
 th {
-  background-color: #49a0ad;
-  color: #ffffff;
-  font-weight: 500;
-  padding: 10px 20px;
-  text-align: left;
+	background-color: #49a0ad;
+	color: #ffffff;
+	font-weight: 500;
+	padding: 10px 20px;
+	text-align: left;
 }
 
 td {
-  padding: 10px 20px;
-  white-space: nowrap;
+	padding: 10px 20px;
+	white-space: nowrap;
 }
 
 a {
-  text-decoration: none;
-  color: #333333;
+	text-decoration: none;
+	color: #333333;
 }
 
 .status-ok {
-  color: green;
-  font-weight: bold;
+	color: green;
+	font-weight: bold;
 }
 
 .status-error {
-  color: red;
-  font-weight: bold;
+	color: red;
+	font-weight: bold;
 }
 
 /* Responsive styles */
 @media screen and (max-width: 600px) {
-  table {
-    margin-top: 0;
-  }
+	table {
+		margin-top: 0;
+		margin-bottom: 0;
+	}
 
-  th,
-  td {
-    padding: 8px 16px;
-    font-size: 12px;
-  }
+	th,
+	td {
+		padding: 8px 16px;
+		font-size: 12px;
+	}
 }
